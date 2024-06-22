@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Pere Rovira</Authors>
+    <Description>A .NET middle library to test LibSSH.</Description>
+    <Company>N/A</Company>
+    <ProjectUrl>https://github.com/provca</ProjectUrl>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\LibServer\LibServer\LibServer.csproj" />
+    <ProjectReference Include="..\..\LibSSH\LibSSH\LibSSH.csproj" />
+  </ItemGroup>
+
+</Project>
